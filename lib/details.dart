@@ -16,7 +16,8 @@ class Detials extends StatelessWidget {
         return Column(
           children: [
             ReactiveTextField(
-              formControlName: TextFieldsName.restaurantDetails.restaurantName,
+              controller: TextEditingController(text: "testing"),
+              formControlName: TextFieldsName.resDtls.resName,
               keyboardType: TextInputType.name,
             ),
           ],
